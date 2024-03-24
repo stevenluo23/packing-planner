@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Travel Planner
+
+Travel Planner is a user-friendly website that helps you sort your trip essentials and track your packing list with ease.
+
+---
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
