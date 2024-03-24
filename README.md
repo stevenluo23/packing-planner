@@ -1,6 +1,6 @@
 # Packing Planner
 
-Packing Planner is a user-friendly website that helps you sort your trip essentials and track your packing list with ease.
+Packing Planner is a user-friendly website that helps you sort your trip essentials and plan your packing list with ease.
 
 ![webpage screenshot](https://github.com/stevenluo23/travel-planner/blob/main/screenshots/page.png?raw=true)
 
