@@ -12,7 +12,7 @@ export default function PackingList({
     input: () => items,
     description: (a, b) => a.description.localeCompare(b.description),
     packed: (a, b) => Number(b.packed) - Number(a.packed),
-    quantity: (a, b) => a.quantity - b.quantity,
+    quantity: (a, b) => b.quantity - a.quantity,
   };
 
   let sortedItems = items.slice().sort(sortFunctions[sortBy]);
