@@ -1,3 +1,3 @@
 export default function Logo() {
-  return <h1>🥥 Travel Planner 💼</h1>;
+  return <h1>🥥 Packing Planner 💼</h1>;
 }
