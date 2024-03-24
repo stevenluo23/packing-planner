@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/travel-planner/static/css/main.59f7684a.css",
+    "main.js": "/travel-planner/static/js/main.519c34ec.js",
+    "index.html": "/travel-planner/index.html",
+    "main.59f7684a.css.map": "/travel-planner/static/css/main.59f7684a.css.map",
+    "main.519c34ec.js.map": "/travel-planner/static/js/main.519c34ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59f7684a.css",
+    "static/js/main.519c34ec.js"
+  ]
+}
