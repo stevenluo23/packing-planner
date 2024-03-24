@@ -2,7 +2,10 @@
 
 Travel Planner is a user-friendly website that helps you sort your trip essentials and track your packing list with ease.
 
+![webpage screenshot](https://github.com/stevenluo23/travel-planner/tree/main/screenshots/webpage.png?raw=true)
+
 ---
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
