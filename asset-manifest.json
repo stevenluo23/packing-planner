@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/packing-planner/static/css/main.f84f6456.css",
+    "main.css": "/packing-planner/static/css/main.9fca4a0a.css",
     "main.js": "/packing-planner/static/js/main.6d551548.js",
     "index.html": "/packing-planner/index.html",
-    "main.f84f6456.css.map": "/packing-planner/static/css/main.f84f6456.css.map",
+    "main.9fca4a0a.css.map": "/packing-planner/static/css/main.9fca4a0a.css.map",
     "main.6d551548.js.map": "/packing-planner/static/js/main.6d551548.js.map"
   },
   "entrypoints": [
-    "static/css/main.f84f6456.css",
+    "static/css/main.9fca4a0a.css",
     "static/js/main.6d551548.js"
   ]
 }
