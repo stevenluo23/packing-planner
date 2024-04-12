@@ -31,7 +31,7 @@ export default function Form({ onAddItems }) {
         placeholder="Item..."
         value={description}
         onChange={(e) => setDescription(e.target.value)}
-        autofocus="true"
+        autoFocus="true"
       />
       <button>Add</button>
     </form>
