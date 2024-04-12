@@ -1,13 +1,11 @@
-import { useEffect, useState } from "react";
 import Logo from "./components/Logo";
 import PackingList from "./components/PackingList";
 import Form from "./components/Form";
 import Stats from "./components/Stats";
+import { useLocalStorageState } from "./hooks/useLocalStorageState";
 
 export default function App() {
-  const [items, setItems] = useState(
-    () => JSON.parse(localStorage.getItem("items")) || []
-  );
+  const [items, setItems] = useLocalStorageState([], "items");
   const handleAddItems = (i) => setItems([...items, i]);
   const handleDeleteItem = (id) =>
     setItems((items) => items.filter((item) => item.id !== id));
@@ -27,10 +25,6 @@ export default function App() {
       if (confirmed) setItems([]);
     }
   };
-
-  useEffect(() => {
-    localStorage.setItem("items", JSON.stringify(items));
-  }, [items]);
 
   return (
     <div className="app">
